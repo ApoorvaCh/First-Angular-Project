@@ -1,3 +1,5 @@
+# This is a Sample Angular project ehich covers all the angular fundementals
+
 # Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
