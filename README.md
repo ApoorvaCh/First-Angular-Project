@@ -1,4 +1,4 @@
-# This is a Sample Angular project ehich covers all the angular fundementals
+This is a Sample Angular project which covers all the angular fundementals
 
 # Project
 
