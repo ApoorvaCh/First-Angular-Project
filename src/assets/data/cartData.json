@@ -1,0 +1,67 @@
+[
+	{
+		"id":"1",
+		"img":"../assets/images/samsungm30.png",
+		"details":{
+			"name":"Samsung Galaxy M30s",
+			"description":"Opal Black, 4GB+64GB"
+		},
+		"price":"13999.00"
+	},
+	{
+		"id":"2",
+		"img":"../assets/images/motog5.png",
+		"details":{
+			"name":"Moto G5 Plus",
+			"description":"Fine Gold, 4GB+32GB"
+		},
+		"price":"9788.00"
+	},
+	{
+		"id":"3",
+		"img":"../assets/images/motoOneVision.png",
+		"details":{
+			"name":"Moto One Vision",
+			"description":"Black, 4GB+128GB"
+		},
+		"price":"17950.00"
+	},
+	{
+		"id":"4",
+		"img":"../assets/images/redmi7.jpg",
+		"details":{
+			"name":"Redmi Note 7",
+			"description":"Onyx Black, 4GB+64GB"
+		},
+		"price":"10899.00"
+	},
+	{
+		"id":"5",
+		"img":"../assets/images/galaxyJ2.jpg",
+		"details":{
+			"name":"Samsung Galaxy J2",
+			"description":"Gold, 2GB+16GB"
+		},
+		"price":"7290.00"
+	},
+	{
+		"id":"6",
+		"img":"../assets/images/galaxym10.jpg",
+		"details":{
+			"name":"Samsung Galaxy M10",
+			"description":"Blue, 3GB+32GB"
+		},
+		"price":"7999.00"
+	},
+	{
+		"id":"7",
+		"img":"../assets/images/OppoFindX.jpg",
+		"details":{
+			"name":"Oppo find x",
+			"description":"Blue Black, 8GB+256GB"
+		},
+		"price":"10549.00"
+	}
+
+
+]

@@ -1,0 +1,21 @@
+<div class="welcome">
+<p>Welcome to the Angular Store</p>
+<p>Please select the products you want to add them to the shopping cart.</p>
+<p>When you are done, click the shopping cart icon to review your code and checkout.</p>
+</div>
+<p>Search : <input type="text" [(ngModel)]="searchItem"/></p>
+<table>
+    <tr>
+        <td colspan="4" style="background-color: #f0f0f0"> <span id="total"><a routerLink="/myCartItems"><i class="material-icons" style="font-size: 15px">&#xe8cc;</i>{{numberOfItems}} items <i class="fa"> &#xf156;</i>{{totalPrice}} ok</a></span></td>
+    </tr>
+    <tr *ngFor="let cart of cartData | filter:searchItem">
+        <td><img src="{{cart.img}}" width="100px" height="100px"/></td>
+        <td style="text-align: left">
+            <p style="color:#368ac0;">{{cart.details.name}}</p>
+            <p>{{cart.details.description}}</p>
+        </td>
+        <td style="text-align: right"> <i class="fa"> &#xf156;</i>{{cart.price}}</td>
+        <td style="color:#368ac0; cursor: pointer;" (click)="addToCart(cart.id,cart.details.name,cart.price)">add to cart</td>
+    </tr>
+
+</table>

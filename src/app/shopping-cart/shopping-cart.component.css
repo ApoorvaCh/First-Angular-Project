@@ -1,0 +1,26 @@
+table{
+    width:100%;
+}
+table,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+#total{
+    float: right;
+    padding:5px;
+}
+td{
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+a{
+    text-decoration: none;
+    color:#368ac0;
+}
+.welcome{
+    font-size: 14px;
+    line-height: 30%;
+    color:#368ac0;
+}

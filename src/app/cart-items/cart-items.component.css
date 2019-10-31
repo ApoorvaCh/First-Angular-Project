@@ -1,0 +1,78 @@
+.welcome{
+    font-size: 14px;
+    line-height: 30%;
+    color:#368ac0;
+}
+
+
+.myCartItems{
+    float:left;
+    width:70%;
+    
+}
+table{
+    width:100%;
+   
+}
+table,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding-left:10px;
+    padding-right:10px;
+}
+.cartActions{
+    float:left;
+    width:25%;
+    
+}
+.backButton, .clearButton, .payPalButton, .googleButton{
+    width:100%;
+    margin-left:30px;
+    margin-bottom: 5px;
+    padding:7px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    border:none
+    
+}
+
+.clearButton{
+    color:white;
+    background:#e84f4f;
+}
+.payPalButton, .googleButton{
+    color:white;
+    background: #368ac0;
+}
+
+
+
+.add, .substract,.quant{
+    border:none;
+    color:white;
+    width:25px;
+}
+#changeQuant{
+    border: 1px solid #e7e7e7;
+    display: inline-block;
+}
+.quant{
+    color:black;
+    background:white;
+    width:50px;
+    font-size: 12px;
+    
+}
+
+.add{
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.substract{
+    background:#555555;
+    cursor: pointer;
+}
